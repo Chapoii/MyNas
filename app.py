@@ -67,4 +67,5 @@ def upload():
 
 if __name__ == '__main__':
     # 在局域网上开启端口
-    app.run()
+    app.run(host='0.0.0.0', port=5000)
+
